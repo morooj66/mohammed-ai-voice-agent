@@ -1,0 +1,62 @@
+# ── Secrets & local configuration (never committed) ─────────────────────────────
+.env
+.env.*
+!.env.example
+.vercel/
+.claude/
+
+# ── Dependencies, builds, OS and editor files ─────────────────────────────────
+node_modules/
+dist/
+preview-dist/
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# ── Private recordings, drafts and media production (local only) ──────────────
+# Unreviewed raw recordings, draft previews and exports; only the approved final
+# simulation (public/recordings/scripted-khalid-mohammed-v3.m4a) is published.
+recordings-raw/
+preview/draft-public/
+exports/
+production/
+*.wav
+*.mp4
+
+# ── Internal documentation (status notes, prompt drafts, remote audits) ───────
+docs/*
+!docs/screenshots/
+
+# ── Internal agent-management tooling ─────────────────────────────────────────
+# These scripts publish, edit and diagnose the private ElevenLabs agents and
+# contain account-specific agent identifiers. Only the scripts the public app and
+# its tests need are published.
+scripts/*
+!scripts/check-secrets.mjs
+!scripts/check-render.mjs
+!scripts/check-private-preview.mjs
+!scripts/vercel-env-preview.mjs
+!scripts/vercel-env-production.mjs
+!scripts/record-conversation.mjs
+!scripts/build-simulation-fixture.mjs
+!scripts/trim-draft.mjs
+!scripts/edit-recording.mjs
+
+# Tests that exercise the excluded tooling, prompt drafts or recorded transcripts.
+tests/fixtures/
+tests/caller-personas.test.mjs
+tests/conversation-v3.test.mjs
+tests/create-um-nasser-agent.test.mjs
+tests/mohammed-phrasing.test.mjs
+tests/mohammed-test-branch.test.mjs
+tests/mohammed-v4-proposal.test.mjs
+tests/mohammed-v7-naturalness.test.mjs
+tests/normal-routing-verification.test.mjs
+tests/prompt-update.test.mjs
+tests/publish-approved-drafts.test.mjs
+tests/raj-empathy-isolation.test.mjs
+tests/realism.test.mjs
+tests/um-nasser-test-branch.test.mjs
+tests/um-nasser-voice-check.test.mjs
+tests/update-um-nasser-prompt.test.mjs

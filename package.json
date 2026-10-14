@@ -1,0 +1,31 @@
+{
+  "name": "mohammed-voice-ui",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Portfolio demo: voice interface for Mohammed, a Saudi Arabic motor insurance AI agent (MOCK company).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "token-server": "node server/demo-server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm test && node scripts/check-render.mjs && npm run build && node scripts/check-secrets.mjs",
+    "audit:remote": "node scripts/audit-remote.mjs",
+    "build:private-preview": "vite build --config vite.preview.config.js && node scripts/check-private-preview.mjs",
+    "dev:private-preview": "vite --config vite.preview.config.js"
+  },
+  "dependencies": {
+    "@elevenlabs/react": "1.17.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.21",
+    "esbuild": "0.21.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

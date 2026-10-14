@@ -1,0 +1,318 @@
+{
+  "id": "khalid-mohammed-scripted-v2",
+  "kind": "scripted",
+  "approvedAt": "2026-10-13 (v2 changes requested)",
+  "note": "APPROVED final script (line 9 = mandatory corrected wording). Written dramatization voiced with the approved agent voices; NOT a live AI-to-AI call. Independent personal demo, not affiliated with Najm or any insurer. v2: only lines 11 and 15 text, Khalid middle-line performance, and background recordings changed.",
+  "voices": {
+    "mohammed": {
+      "voiceId": "rpGHcNQJvO8dFNNFNj1v",
+      "model": "eleven_v4_turbo",
+      "settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.75,
+        "speed": 1
+      }
+    },
+    "khalid": {
+      "voiceId": "Hvlnv5DwiIO2CQ6oYMZ3",
+      "model": "eleven_v4_turbo",
+      "settings": null
+    }
+  },
+  "lines": [
+    {
+      "n": 1,
+      "speaker": "mohammed",
+      "tag": "[Warmly]",
+      "text": "حياك الله، معك محمد، المساعد الصوتي. وش أقدر أخدمك فيه؟"
+    },
+    {
+      "n": 2,
+      "speaker": "khalid",
+      "emotion": "STRESSED",
+      "gapMs": 300,
+      "text": "ألو، السلام عليكم! يا أخوي أنا توي صادم عند الإشارة، والله إني متقروش! ماني عارف وش أسوي الحين!"
+    },
+    {
+      "n": 3,
+      "speaker": "mohammed",
+      "tag": "[Seriously]",
+      "gapMs": 400,
+      "text": "وعليكم السلام، سلامتك. طمّني، فيه أحد انصاب بالحادث؟"
+    },
+    {
+      "n": 4,
+      "speaker": "khalid",
+      "emotion": "FRUSTRATED",
+      "gapMs": 300,
+      "text": "لا لا، الحمد لله محد انصاب… بس الرجال الثاني نازل من سيارته ومعصب، يقول الغلط علي ويبيني أدفع له الحين! وأنا متأكد إن الغلط عليه!",
+      "khalidTag": "[upset and frustrated, talking fast, slightly raised voice]",
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.08
+      }
+    },
+    {
+      "n": 5,
+      "speaker": "mohammed",
+      "tag": "[Empathetically]",
+      "gapMs": 450,
+      "text": "فاهم عليك. لا تستعجل بالدفع أو تتعهد بأي مبلغ. تحديد المسؤولية يكون من الجهة المختصة، مو من كلام أي طرف."
+    },
+    {
+      "n": 6,
+      "speaker": "khalid",
+      "emotion": "FRUSTRATED",
+      "gapMs": 300,
+      "text": "طيب بس هو واقف قدام سيارتي ومعصب… والسيارات وراي واقفة… أنا وش أسوي الحين بالضبط؟",
+      "khalidTag": "[upset and frustrated, talking fast, slightly raised voice]",
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.08
+      }
+    },
+    {
+      "n": 7,
+      "speaker": "mohammed",
+      "tag": "[Seriously]",
+      "gapMs": 400,
+      "text": "أول شي، إذا كان الوضع آمن، شغّل الإشارات الرباعية، وإذا معك مثلث عاكس حطّه على مسافة آمنة.",
+      "subtitle": "أول شي، إذا كان الوضع آمن، شغّل الإشارات الرباعية، وإذا معك مثلث عاكس حطّه على مسا—",
+      "cutAfter": "على مسا",
+      "event": "horn_interrupt"
+    },
+    {
+      "n": 8,
+      "speaker": "khalid",
+      "emotion": "CONFUSED",
+      "gapMs": 450,
+      "text": "هاه؟ لحظة… ما سمعتك، وش قلت؟",
+      "khalidTag": "[startled and irritated, talking fast, slightly raised voice]",
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.08
+      }
+    },
+    {
+      "n": 9,
+      "speaker": "mohammed",
+      "tag": "[Patiently]",
+      "gapMs": 700,
+      "text": "أقول: شغّل الإشارات الرباعية، وإذا معك مثلث عاكس، حطّه بمكان مناسب إذا كان آمن، وابتعد عن حركة السيارات."
+    },
+    {
+      "n": 10,
+      "speaker": "khalid",
+      "emotion": "STRESSED",
+      "gapMs": 300,
+      "text": "شغّلتها شغّلتها… المثلث ما أدري وينه أصلًا. طيب وبعدين؟ أكلم المرور؟",
+      "khalidTag": "[stressed and agitated, talking fast]",
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.08
+      }
+    },
+    {
+      "n": 11,
+      "speaker": "mohammed",
+      "tag": "[Patiently]",
+      "gapMs": 400,
+      "text": "يعتمد على تفاصيل الحادث. طيب، تأمينك للحين ساري؟"
+    },
+    {
+      "n": 12,
+      "speaker": "khalid",
+      "emotion": "CONFUSED",
+      "gapMs": 350,
+      "text": "إيه ساري… أظن. إيه إيه، ساري، جددته قبل كم شهر.",
+      "khalidTag": "[nervous and hesitant, still stressed]",
+      "voiceSettings": {
+        "stability": 0.4,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.04
+      }
+    },
+    {
+      "n": 13,
+      "speaker": "mohammed",
+      "tag": "[Patiently]",
+      "gapMs": 400,
+      "protected": true,
+      "text": "زين. بما إنه ما فيه إصابات، وإذا كان تأمين أحد الطرفين ساريًا وتحققت بقية شروط مباشرة نجم للحادث، تقدر تبلغ عن طريق التطبيق أو الرقم واحد تسعة تسعة صفر ثلاثة ثلاثة."
+    },
+    {
+      "n": 14,
+      "speaker": "khalid",
+      "emotion": "CALMING_DOWN",
+      "overlapMs": 150,
+      "protected": true,
+      "text": "لحظة أكتبه… واحد تسعة تسعة… صفر ثلاثة ثلاثة؟",
+      "khalidTag": "[tense and focused, talking quickly]",
+      "voiceSettings": {
+        "stability": 0.4,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.04
+      }
+    },
+    {
+      "n": 15,
+      "speaker": "mohammed",
+      "tag": "[Warmly]",
+      "gapMs": 350,
+      "protected": true,
+      "text": "صحيح. واتبع تعليمات الجهة المختصة، وخلّ هويتك ورخصتك واستمارتك جاهزة."
+    },
+    {
+      "n": 16,
+      "speaker": "khalid",
+      "emotion": "STRESSED",
+      "gapMs": 350,
+      "text": "طيب والرجال الثاني معصب علي، وش أسوي معه الحين؟",
+      "khalidTag": "[upset and frustrated, talking fast, slightly raised voice]",
+      "voiceSettings": {
+        "stability": 0.35,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.08
+      }
+    },
+    {
+      "n": 17,
+      "speaker": "mohammed",
+      "tag": "[Seriously]",
+      "gapMs": 400,
+      "text": "خلك بعيد عن أي مواجهة معه، ولا تدخل في نقاش عن مين الغلطان. خلّ الجهة المختصة توثّق الحادث وتحدد المسؤولية."
+    },
+    {
+      "n": 18,
+      "speaker": "khalid",
+      "emotion": "CALMING_DOWN",
+      "gapMs": 400,
+      "text": "إن شاء الله… الحين الصورة أوضح شوي. الله يعطيك العافية.",
+      "khalidTag": "[calming down a little, still a bit tense]",
+      "voiceSettings": {
+        "stability": 0.45,
+        "similarity_boost": 0.75,
+        "style": 0,
+        "use_speaker_boost": true,
+        "speed": 1.0
+      }
+    },
+    {
+      "n": 19,
+      "speaker": "mohammed",
+      "tag": "[Warmly]",
+      "gapMs": 350,
+      "text": "الله يعافيك. فيه شي ثاني أقدر أساعدك فيه؟"
+    },
+    {
+      "n": 20,
+      "speaker": "khalid",
+      "emotion": "RELIEVED",
+      "gapMs": 350,
+      "text": "لا، مشكور… بكلم نجم الحين. مع السلامة."
+    },
+    {
+      "n": 21,
+      "speaker": "mohammed",
+      "tag": "[Warmly]",
+      "gapMs": 300,
+      "text": "الله يسلمك، مع السلامة."
+    }
+  ],
+  "events": [
+    {
+      "id": "horn_far_1",
+      "type": "horn_far",
+      "afterLine": 4,
+      "offsetMs": 250,
+      "gainDb": -14
+    },
+    {
+      "id": "horn_interrupt",
+      "type": "horn_near",
+      "atCutOfLine": 7,
+      "leadMs": 120,
+      "gainDb": 0
+    },
+    {
+      "id": "horn_far_2",
+      "type": "horn_far_b",
+      "afterLine": 16,
+      "offsetMs": 150,
+      "gainDb": -16
+    },
+    {
+      "id": "hangup",
+      "type": "hangup",
+      "afterLine": 21,
+      "offsetMs": 350,
+      "gainDb": -18
+    }
+  ],
+  "mix": {
+    "sampleRate": 48000,
+    "voiceTargetDbfs": -18,
+    "streetBedDb": -30,
+    "officeBedDb": -38,
+    "duckDb": 4,
+    "protectedExtraDuckDb": 4,
+    "minVoiceOverBedDb": 16,
+    "khalidPan": -0.25,
+    "mohammedPan": 0.25,
+    "khalidBedBand": "hd"
+  },
+  "sfx": {
+    "office": [
+      "freesound-579568.48k.wav"
+    ],
+    "murmur": [],
+    "horn_near": {
+      "file": "freesound-680577.48k.wav",
+      "start": 1.0,
+      "end": 1.9
+    },
+    "horn_far": {
+      "file": "mixkit-720.48k.wav"
+    },
+    "horn_far_b": {
+      "file": "freesound-680577.48k.wav",
+      "start": 2.85,
+      "end": 3.25
+    },
+    "streetLayers": [
+      {
+        "name": "continuous traffic base",
+        "sources": [
+          "mixkit-2463.48k.wav",
+          "freesound-217806.48k.wav"
+        ],
+        "gainDb": -3
+      },
+      {
+        "name": "cars approaching and passing",
+        "sources": [
+          "freesound-835090.48k.wav"
+        ],
+        "gainDb": 0
+      }
+    ]
+  }
+}

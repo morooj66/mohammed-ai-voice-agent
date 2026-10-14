@@ -1,0 +1,8 @@
+{
+  "src": "/api/simulation/(.*)",
+  "dest": "https://REPLACE-WITH-APPROVED-BRIDGE.onrender.com/api/simulation/$1",
+  "transforms": [{
+    "type": "request.headers", "op": "set", "target": { "key": "x-origin-secret" },
+    "args": "$BRIDGE_ORIGIN_SECRET", "env": ["BRIDGE_ORIGIN_SECRET"]
+  }]
+}

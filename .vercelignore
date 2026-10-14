@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.claude
+.vercel
+node_modules
+docs/remote-audit*.json
+# Never upload private or development-only material to Vercel (run `npm run verify` locally before each deploy).
+recordings-raw
+preview
+preview-dist
+exports
+docs
+tests
+deployment
+*.wav
+!public/recordings/*.wav
+# Scripted demo production working files (local only)
+production
